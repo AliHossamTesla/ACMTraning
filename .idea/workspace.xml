@@ -1,8 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="AutoImportSettings">
-    <option name="autoReloadType" value="SELECTIVE" />
-  </component>
   <component name="CMakePresetLoader"><![CDATA[{
   "useNewFormat": true
 }]]></component>
@@ -20,7 +17,7 @@
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="523c4392-55d5-42f0-aca2-b57c3a9ff7f3" name="Changes" comment="" />
+    <list default="true" id="1c9d781a-ce01-44f3-8c56-f3ec5b6b47e4" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -31,17 +28,12 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
   </component>
-  <component name="ProjectApplicationVersion">
-    <option name="ide" value="CLion" />
-    <option name="majorVersion" value="2022" />
-    <option name="minorVersion" value="2.4" />
-  </component>
-  <component name="ProjectId" id="2UJiTBiwytbpoPZ8lqapfZYXy4J" />
+  <component name="ProjectId" id="2UJlybjvxDnLu2kLhzwTaTAhQEo" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -55,11 +47,7 @@
     "WebServerToolWindowFactoryState": "false",
     "cf.first.check.clang-format": "false",
     "cidr.known.project.marker": "true",
-    "last_opened_file_path": "D:/progress/ACMTraning/data structures/Minimum stack - Minimum queue/.github/workflows/pin-readme.yml",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)"
+    "last_opened_file_path": "D:/progress/ACMTraning/data structures/CMakeLists.txt"
   }
 }]]></component>
   <component name="RunManager">
@@ -77,12 +65,12 @@
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="523c4392-55d5-42f0-aca2-b57c3a9ff7f3" name="Changes" comment="" />
-      <created>1692664089627</created>
+      <changelist id="1c9d781a-ce01-44f3-8c56-f3ec5b6b47e4" name="Changes" comment="" />
+      <created>1692665819882</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1692664089627</updated>
-      <workItem from="1692664092121" duration="1575000" />
+      <updated>1692665819882</updated>
+      <workItem from="1692665822116" duration="116000" />
     </task>
     <servers />
   </component>
