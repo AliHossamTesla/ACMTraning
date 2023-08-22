@@ -131,7 +131,6 @@ $O(n)$.
 - [Queries with Fixed Length](https://www.hackerrank.com/challenges/queries-with-fixed-length/problem)
 - [Binary Land](https://www.codechef.com/MAY20A/problems/BINLAND)
 - [Sum of minimum and maximum](https://www.codingninjas.com/studio/problems/sum-of-minimum-and-maximum-elements-of-all-subarrays-of-size-k_1171047)
-- [Sliding Subarray Beauty](https://leetcode.com/problems/sliding-subarray-beauty/)
 - [Sliding Window Maximum](https://leetcode.com/problems/sliding-window-maximum/)
 - [Min Stack](https://leetcode.com/problems/min-stack/)
 ## [resourse](https://cp-algorithms.com/data_structures/stack_queue_modification.html)
