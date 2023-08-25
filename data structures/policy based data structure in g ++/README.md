@@ -1,8 +1,20 @@
-# ***Ordered Set***
+# **policy based data structure in g++**(not end yet)
+
+The g++ compiler also supports some data structures that are not part of the C++ standard library. Such structures are called policy-based data structures. These data structures are designed for high-performance, flexibility, semantic safety, and conformance to the corresponding containers in std.
+
+To use these structures, the following lines must be added to the code: 
+```cpp
+#include <ext/pb_ds/assoc_container.hpp>
+using namespace __gnu_pbds;
+```
+what we will discuss about : 
+1. Ordered Set
+2. ordered map
+# **1. Ordered Set**
 
 # **Motivation** :
 
-Ordered set is a [policy based data structure in g++](https://www.geeksforgeeks.org/policy-based-data-structures-g/) that keeps the unique elements in sorted order. It performs all the operations as performed by the set data structure in STL in $log(n)$ omplexity and performs two additional operations also in $log(n)$ omplexity .
+Ordered set is a policy based data structure in g++ that keeps the unique elements in sorted order. It performs all the operations as performed by the set data structure in STL in $log(n)$ omplexity and performs two additional operations also in $log(n)$ omplexity .
 - **order_of_key (k)** :
 
  Number of items strictly smaller than k : 
@@ -51,7 +63,17 @@ tree < int ,  null_type ,  less ,  rb_tree_tag ,  tree_order_statistics_node_upd
 
 ## ***Set Vs Ordered Set***
 There is not so much difference between the set and ordered set although ordered set can be assumed as an extended version of set capable of performing some more advanced functions(stated above) that are extensively used in competitive programming.
+
+# **2. Ordered map**
+
 ## Problems 
 soon ......(work in it).
 
-## [Resource](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)
+## Resource
+[Documentation](https://gcc.gnu.org/onlinedocs/libstdc++/ext/pb_ds/)
+
+[geeksforgeeks 1](https://www.geeksforgeeks.org/ordered-set-gnu-c-pbds/)
+
+[geeksforgeeks 2](https://www.geeksforgeeks.org/policy-based-data-structures-g/)
+
+[Codeforces Article](https://codeforces.com/blog/entry/11080)
