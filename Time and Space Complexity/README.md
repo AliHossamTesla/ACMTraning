@@ -168,11 +168,9 @@ the function calls produced by this single call:
 |$g(1)$         | $2^{n - 1}$     |
 
 Based on this, the time complexity is : 
-$$
-1 + 2 + 4 +...+2^{n - 1} = 2^n - 1 = O(2^n) .
-$$
+$$ 1 + 2 + 4 +...+2^{n - 1} = 2^n - 1 = O(2^n) .$$
 
-### 1.4. Order of magnitude
+### 1.4. Complexity classes
 
 The following list contains common time complexities of algorithms: 
 
