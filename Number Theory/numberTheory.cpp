@@ -1,7 +1,10 @@
-#include<bits/stdc++.h>
-using namespace std;
+/*
+Description: this contains function for number theory
+By : @own.
+*/
 namespace number_theory{
     using ll = long long ;
+    const int MOD = 1e9 + 7 ;
     ll gcd(ll a, ll b) { return b == 0 ? a : gcd(b, a % b);}
     ll lcm(ll a, ll b) { return (a / gcd(a, b)) * b; }
     ll addMod(ll x, ll y, ll m) {return ((x % m) + (y % m)) % m;}
@@ -56,7 +59,7 @@ namespace number_theory{
             }
         }
         if(n != 1) mp[n] ++ ;
-        for(auto I : mp) ans *= I.second ;
+        for(auto I : mp) ans *= (I.second + 1) ;
     }
     vector<ll> primeFactorization(ll n){
         vector<ll> ans;
@@ -85,6 +88,9 @@ namespace number_theory{
         for (int j = 0; j < SZ; j++)
             if (is_prime[j])
                 primes.push_back(j);
+    }
+    long long inv(long long a, long long b = MOD){
+        return 1 < a ? b - inv(b % a, a) * b / a : 1;
     }
 }
 using namespace number_theory;
